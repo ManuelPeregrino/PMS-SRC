@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="693.0" prefWidth="940.0" style="-fx-background-color: #F7E7CE;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.petmaps.aplication.controllers.MapasController">
+   <children>
+      <ImageView fitHeight="382.0" fitWidth="786.0" layoutX="83.0" layoutY="86.0">
+         <image>
+            <Image url="@assets/img/mapa-tuxtla-gutierrez-chiapas.png" />
+         </image>
+      </ImageView>
+      <Pane layoutY="-14.0" prefHeight="80.0" prefWidth="946.0" style="-fx-background-color: #F3DFA2;">
+         <children>
+            <Button id="RegresarLogin" fx:id="btnVolverMaps" layoutX="732.0" layoutY="24.0" mnemonicParsing="false" onMouseClicked="#btnVolverMapsOnMouseClicked" prefHeight="42.0" prefWidth="188.0" style="-fx-background-radius: 20; -fx-background-color: #E63462;" text="Menu Principal" textFill="#f7e7ce">
+               <font>
+                  <Font name="Berlin Sans FB" size="23.0" />
+               </font></Button>
+         </children>
+      </Pane>
+      <ImageView fx:id="M" fitHeight="35.0" fitWidth="33.0" layoutX="24.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/img/PetLogo%20.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="65.0" layoutY="26.0" text="PetMaps" textFill="#cd4242">
+         <font>
+            <Font name="Berlin Sans FB" size="32.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="588.0" layoutY="344.0">
+         <image>
+            <Image url="@assets/img/Icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="242.0" layoutY="202.0">
+         <image>
+            <Image url="@assets/img/Icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="512.0" layoutY="242.0">
+         <image>
+            <Image url="@assets/img/Icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="299.0" layoutY="314.0">
+         <image>
+            <Image url="@assets/img/Icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="677.0" layoutY="257.0">
+         <image>
+            <Image url="@assets/img/Icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="145.0" layoutY="307.0">
+         <image>
+            <Image url="@assets/img/Icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="639.0" layoutY="182.0">
+         <image>
+            <Image url="@assets/img/Icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="665.0" layoutY="389.0">
+         <image>
+            <Image url="@assets/img/Icon.png" />
+         </image>
+      </ImageView>
+      <Button id="C7" fx:id="btnInvisible1" layoutX="679.0" layoutY="252.0" mnemonicParsing="false" onMouseClicked="#btnInvisible1OnMouseClicked" prefHeight="40.0" prefWidth="26.0" style="-fx-background-color: 0000000;" text="btnInvisible1" textAlignment="CENTER" textFill="#f1f7f8" />
+      <Button id="C6" fx:id="btnInvisible2" layoutX="244.0" layoutY="197.0" mnemonicParsing="false" onMouseClicked="#btnInvisible2OnMouseClicked" prefHeight="40.0" prefWidth="26.0" style="-fx-background-color: 0000000;" text="btnInvisible2" textAlignment="CENTER" textFill="#f1f7f8" />
+      <Button id="C7" fx:id="btnInvisible3" layoutX="147.0" layoutY="302.0" mnemonicParsing="false" onMouseClicked="#btnInvisible3OnMouseClicked" prefHeight="40.0" prefWidth="26.0" style="-fx-background-color: 0000000;" text="btnInvisible3" textAlignment="CENTER" textFill="#f1f7f8" />
+      <Button id="C5" fx:id="btnInvisible4" layoutX="301.0" layoutY="309.0" mnemonicParsing="false" onMouseClicked="#btnInvisible4OnMouseClicked" prefHeight="40.0" prefWidth="26.0" style="-fx-background-color: 0000000;" text="btnInvisible4" textAlignment="CENTER" textFill="#f1f7f8" />
+      <Button id="C4" fx:id="btnInvisible5" layoutX="514.0" layoutY="237.0" mnemonicParsing="false" onMouseClicked="#btnInvisible5OnMouseClicked" prefHeight="40.0" prefWidth="26.0" style="-fx-background-color: 0000000;" text="btnInvisible5" textAlignment="CENTER" textFill="#f1f7f8" />
+      <Button id="C1" fx:id="btnInvisible6" layoutX="590.0" layoutY="339.0" mnemonicParsing="false" onMouseClicked="#btnInvisible6OnMouseClicked" prefHeight="40.0" prefWidth="26.0" style="-fx-background-color: 0000000;" text="btnInvisible6" textAlignment="CENTER" textFill="#f1f7f8" />
+      <Button id="C2" fx:id="btnInvisible7" layoutX="666.0" layoutY="384.0" mnemonicParsing="false" onMouseClicked="#btnInvisible7OnMouseClicked" prefHeight="40.0" prefWidth="26.0" style="-fx-background-color: 0000000;" text="btnInvisible7" textAlignment="CENTER" textFill="#f1f7f8" />
+      <Button id="C3" fx:id="btnInvisible8" layoutX="641.0" layoutY="177.0" mnemonicParsing="false" onMouseClicked="#btnInvisible8OnMouseClicked" prefHeight="40.0" prefWidth="26.0" style="-fx-background-color: 0000000;" text="btnInvisible8" textAlignment="CENTER" textFill="#f1f7f8" />
+      <Label layoutX="229.0" layoutY="468.0" prefHeight="40.0" prefWidth="570.0" text="Selecciona el centro desde un punto en el mapa" textFill="#1ccad9">
+         <font>
+            <Font name="Berlin Sans FB" size="28.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="txtAreaShowCentroadopcion" layoutX="33.0" layoutY="506.0" prefHeight="124.0" prefWidth="886.0">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </TextArea>
+      <Button fx:id="btnPrintAll" layoutX="665.0" layoutY="638.0" mnemonicParsing="false" onMouseClicked="#btnPrintAllOnMouseClicked" prefHeight="40.0" prefWidth="252.0" style="-fx-background-radius: 20; -fx-background-color: #028bc0;" text="Imprimir todos los centros" textFill="#f7e7ce">
+         <font>
+            <Font name="Berlin Sans FB" size="17.0" />
+         </font></Button>
+      <Button fx:id="btnAgregarCentro" layoutX="503.0" layoutY="638.0" mnemonicParsing="false" onMouseClicked="#btnAgregarCentroOnMouseClicked" prefHeight="40.0" prefWidth="150.0" style="-fx-background-color: #028bc0; -fx-background-radius: 20;" text="Agregar Centro" textFill="#f7e7ce">
+         <font>
+            <Font name="Berlin Sans FB" size="17.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

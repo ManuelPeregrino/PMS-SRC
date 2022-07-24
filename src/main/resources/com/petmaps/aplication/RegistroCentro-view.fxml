@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="btnSalir" prefHeight="420.0" prefWidth="760.0" style="-fx-background-color: #F7E7CE;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.petmaps.aplication.controllers.RegistroCentroController">
+   <children>
+      <Pane layoutY="-1.0" prefHeight="88.0" prefWidth="760.0" style="-fx-background-color: #F3DFA2;">
+         <children>
+            <Label layoutX="54.0" layoutY="25.0" prefHeight="39.0" prefWidth="141.0" text="Petmaps " textFill="#cd4242" textOverrun="LEADING_WORD_ELLIPSIS">
+               <font>
+                  <Font name="Berlin Sans FB" size="32.0" />
+               </font>
+            </Label>
+            <Label layoutX="436.0" layoutY="23.0" prefHeight="42.0" prefWidth="310.0" text="Registro de centros" textFill="#cd4242" textOverrun="CENTER_ELLIPSIS">
+               <font>
+                  <Font name="Berlin Sans FB" size="32.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="M" fitHeight="35.0" fitWidth="33.0" layoutX="14.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/img/PetLogo%20.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <TextField fx:id="txtNombreCentro" layoutX="421.0" layoutY="160.0" prefHeight="26.0" prefWidth="310.0" style="-fx-background-radius: 20;" />
+      <Label layoutX="455.0" layoutY="109.0" prefHeight="31.0" prefWidth="242.0" text="Ingrese los datos del centro" textFill="#cd4242">
+         <font>
+            <Font name="Berlin Sans FB" size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtUbicacionCentro" layoutX="419.0" layoutY="219.0" prefHeight="26.0" prefWidth="310.0" style="-fx-background-radius: 20;" />
+      <TextField fx:id="txtCapacidadCentro" layoutX="420.0" layoutY="277.0" prefWidth="310.0" style="-fx-background-radius: 20;" />
+      <Button fx:id="btnRegresar" layoutX="650.0" layoutY="360.0" mnemonicParsing="false" onMouseClicked="#btnRegresarOnMouseCliked" prefHeight="40.0" style="-fx-background-radius: 20; -fx-background-color: #028bc0;" text="Regresar" textFill="#f7e7ce">
+         <font>
+            <Font name="Berlin Sans FB" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnAgregarDatos" layoutX="515.0" layoutY="360.0" mnemonicParsing="false" onMouseClicked="#btnAgregarDatosOnMouseClicked" prefHeight="40.0" prefWidth="120.0" style="-fx-background-radius: 20; -fx-background-color: #028bc0;" text="Agregar Datos" textFill="#f7e7ce">
+         <font>
+            <Font name="Berlin Sans FB" size="16.0" />
+         </font>
+      </Button>
+      <Label layoutX="246.0" layoutY="157.0" prefHeight="31.0" prefWidth="166.0" text="Nombre del centro" textFill="#cd4242">
+         <font>
+            <Font name="Berlin Sans FB" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="232.0" layoutY="216.0" prefHeight="31.0" prefWidth="180.0" text="Ubicacion del centro" textFill="#cd4242">
+         <font>
+            <Font name="Berlin Sans FB" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="222.0" layoutY="274.0" prefHeight="31.0" prefWidth="190.0" text="Capacidad del centro" textFill="#cd4242">
+         <font>
+            <Font name="Berlin Sans FB" size="21.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

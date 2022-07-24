@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="693.0" prefWidth="940.0" style="-fx-background-color: #F3DFA2;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.petmaps.aplication.controllers.FirstController">
+   <children>
+      <ImageView fx:id="M" fitHeight="35.0" fitWidth="33.0" layoutX="14.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/img/PetLogo%20.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnMaps" layoutX="542.0" layoutY="24.0" mnemonicParsing="false" onMouseClicked="#btnMapsOnMouseClicked" prefHeight="46.0" prefWidth="92.0" style="-fx-background-radius: 20; -fx-background-color: #B0C4DE;" text="Mapas" textAlignment="CENTER" textFill="#f7e7ce">
+         <font>
+            <Font name="Berlin Sans FB" size="16.0" />
+         </font></Button>
+      <Button fx:id="btnServicios" layoutX="782.0" layoutY="24.0" mnemonicParsing="false" onMouseClicked="#btnServiciosOnMouseClicked" prefHeight="45.0" prefWidth="120.0" style="-fx-background-color: #E63462; -fx-background-radius: 20;" text="Cerrar Sesion" textFill="#f7e7ce">
+         <font>
+            <Font name="Berlin Sans FB" size="16.0" />
+         </font></Button>
+      <Label layoutX="55.0" layoutY="22.0" text="PetMaps" textFill="#e63462">
+         <font>
+            <Font name="Berlin Sans FB" size="32.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnNosotros" layoutX="657.0" layoutY="23.0" mnemonicParsing="false" onMouseClicked="#btnNosotrosOnMouseClicked" prefHeight="46.0" prefWidth="104.0" style="-fx-background-color: #40cdb1; -fx-background-radius: 20;" text="Nosotros" textFill="#f7e7ce">
+         <font>
+            <Font name="Berlin Sans FB" size="16.0" />
+         </font></Button>
+      <ImageView fitHeight="609.0" fitWidth="940.0" layoutY="90.0">
+         <image>
+            <Image url="@assets/img/FotoDeprincipal.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
