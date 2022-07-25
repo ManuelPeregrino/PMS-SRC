@@ -50,12 +50,19 @@ public String Refugiobtn = "";
     private Button btnVolverMaps;
     @FXML
     private Button btnPrintAll;
+
     @FXML
     private TextArea txtAreaShowCentroadopcion;
 
     @FXML
     private Button btnAgregarCentro;
+
+    /*
     @FXML
+    private Button btnAgregarTienda;
+    */
+    @FXML
+
     void btnInvisible1OnMouseClicked(MouseEvent event) {
 
         Refugiobtn = String.valueOf(indexer.refugios.get(0));
@@ -121,10 +128,13 @@ public String Refugiobtn = "";
 
     @FXML
     void btnAgregarCentroOnMouseClicked(MouseEvent event) {
-HelloApplication.setFXML("RegistroCentro-view", "Registro del Centro");
+        HelloApplication.setFXML("RegistroCentro-view", "Registrar Centro");
     }
-
-
-
+/*
+    @FXML
+    void btnAgregarTiendaOnMouseClicked(MouseEvent event) {
+        HelloApplication.setFXML("registroTienda-view", "Registrar Tienda");
+    }
+*/
 
 }

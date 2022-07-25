@@ -16,20 +16,20 @@
             <Image url="@assets/img/mapa-tuxtla-gutierrez-chiapas.png" />
          </image>
       </ImageView>
-      <Pane layoutY="-14.0" prefHeight="80.0" prefWidth="946.0" style="-fx-background-color: #F3DFA2;">
+      <Pane prefHeight="80.0" prefWidth="946.0" style="-fx-background-color: #F3DFA2;">
          <children>
-            <Button id="RegresarLogin" fx:id="btnVolverMaps" layoutX="732.0" layoutY="24.0" mnemonicParsing="false" onMouseClicked="#btnVolverMapsOnMouseClicked" prefHeight="42.0" prefWidth="188.0" style="-fx-background-radius: 20; -fx-background-color: #E63462;" text="Menu Principal" textFill="#f7e7ce">
+            <Button id="RegresarLogin" fx:id="btnVolverMaps" layoutX="770.0" layoutY="16.0" mnemonicParsing="false" onMouseClicked="#btnVolverMapsOnMouseClicked" prefHeight="50.0" prefWidth="140.0" style="-fx-background-radius: 20; -fx-background-color: #028bc0;" text="Menu Principal" textFill="#f7e7ce">
                <font>
-                  <Font name="Berlin Sans FB" size="23.0" />
+                  <Font name="Berlin Sans FB" size="18.0" />
                </font></Button>
          </children>
       </Pane>
-      <ImageView fx:id="M" fitHeight="35.0" fitWidth="33.0" layoutX="24.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="M" fitHeight="35.0" fitWidth="35.0" layoutX="20.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@assets/img/PetLogo%20.png" />
          </image>
       </ImageView>
-      <Label layoutX="65.0" layoutY="26.0" text="PetMaps" textFill="#cd4242">
+      <Label layoutX="60.0" layoutY="17.0" text="PetMaps" textFill="#cd4242">
          <font>
             <Font name="Berlin Sans FB" size="32.0" />
          </font>

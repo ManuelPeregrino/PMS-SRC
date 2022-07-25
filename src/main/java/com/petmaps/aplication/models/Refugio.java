@@ -4,13 +4,16 @@ public class Refugio {
     private String NombreRefugio;
     private String rfc;
     private String Ubicacion;
-    private int Capacidad;
+    protected int Capacidad;
 
     public Refugio(String nombreRefugio, String rfc, String ubicacion, int capacidad) {
-        NombreRefugio = nombreRefugio;
+        this.NombreRefugio = nombreRefugio;
         this.rfc = rfc;
-        Ubicacion = ubicacion;
-        Capacidad = capacidad;
+        this.Ubicacion = ubicacion;
+        this.Capacidad = capacidad;
+    }
+
+    public Refugio(String nombreRefugio, String rfc, String ubicacion) {
     }
 
     public String getNombreRefugio() {

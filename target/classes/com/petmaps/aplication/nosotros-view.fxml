@@ -22,9 +22,9 @@
                   <Image url="@assets/img/PetLogo%20.png" />
                </image>
             </ImageView>
-            <Button id="RegresarLogin" fx:id="btnVolverMaps" layoutX="794.0" layoutY="16.0" mnemonicParsing="false" onMouseClicked="#btnVolverMapsOnMouseClicked" prefHeight="47.0" prefWidth="132.0" style="-fx-background-radius: 20; -fx-background-color: #028bc0;" text="Menu Principal" textFill="#f7e7ce">
+            <Button id="RegresarLogin" fx:id="btnVolverMaps" layoutX="770.0" layoutY="15.0" mnemonicParsing="false" onMouseClicked="#btnVolverMapsOnMouseClicked" prefHeight="50.0" prefWidth="140.0" style="-fx-background-radius: 20; -fx-background-color: #028bc0;" text="Menu Principal" textFill="#f7e7ce">
                <font>
-                  <Font name="Berlin Sans FB" size="16.0" />
+                  <Font name="Berlin Sans FB" size="18.0" />
                </font></Button>
          </children>
       </Pane>
@@ -40,7 +40,7 @@
                   <Font name="Berlin Sans FB" size="27.0" />
                </font>
             </Label>
-            <Label alignment="TOP_LEFT" layoutX="10.0" layoutY="51.0" prefHeight="199.0" prefWidth="454.0" text="Nuestra vision:&#10;&#10;&#10;&#10;&#10;&#10;&#10;Nuestro motivo:&#10;">
+            <Label alignment="TOP_LEFT" layoutX="10.0" layoutY="51.0" prefHeight="298.0" prefWidth="454.0" text="Nuestra vision:&#10;&#10;Como empresa, buscamos mejorar las oportunidades de&#10;&#10;los animales callejeros y contribuir a la mejora de calidad de&#10;&#10;vida de las mascotas.&#10;&#10;&#10;Nuestro motivo:&#10;&#10;El sentimiento de apoyo hacia los animales indefensos y en &#10;condiciones de calle.">
                <font>
                   <Font name="Berlin Sans FB" size="16.0" />
                </font>
