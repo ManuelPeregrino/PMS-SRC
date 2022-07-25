@@ -52,7 +52,6 @@ public class RegistroController {
         if(NombreUsuario!=""&&CorreoUsuario!=""&&ContrasenaUsuario!=""){
 
             userData.users.add(new Usuario(NombreUsuario,CorreoUsuario, ContrasenaUsuario));
-            System.out.println("Cambio??? " + userData.users.size());
             if(userData.users.size()!=SIZE){
                 Alert alert = new Alert(Alert.AlertType.WARNING);
                 alert.setHeaderText(null);

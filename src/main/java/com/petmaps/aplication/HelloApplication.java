@@ -26,10 +26,11 @@ public class HelloApplication extends Application {
         this.stage=stage;
         scene=new Scene(loadFXML("login-view"));
         stage.setTitle("Login-petmaps");
-        //stage.getIcons().add(new Image("src/main/resources/com/petmaps/aplication/assets/img/Petmapsicono.png"));
         stage.setScene(scene);
-        stage.centerOnScreen();//centra la pantalla en tienpo de ejecución
+        stage.centerOnScreen();//centra la pantalla en tiempo de ejecución
         stage.setResizable(false);//impide que el usuario pueda modificar el tamaño del formulario
+        stage.getIcons().add(new Image("C:\\Users\\Manuel Peregrino\\IdeaProjects\\PMS\\src\\main\\resources\\com\\petmaps\\aplication\\assets\\img\\PetLogo .png"));
+
         stage.show();
     }
     public static void setFXML(String nameView, String title){
@@ -59,8 +60,6 @@ public class HelloApplication extends Application {
 
 
     public static void main(String[] args) {
-
-
 
         userData.AgregarUsuarios();
         refugioData.AgregarRefugios();

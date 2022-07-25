@@ -1,6 +1,9 @@
 package com.petmaps.aplication.controllers;
-
+import com.petmaps.aplication.models.Refugio;
 import com.petmaps.aplication.HelloApplication;
+import com.petmaps.aplication.models.RefugioData;
+import com.petmaps.aplication.models.UserData;
+import com.petmaps.aplication.models.Usuario;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
@@ -33,12 +36,39 @@ public class RegistroCentroController {
     private TextField txtUbicacionCentro;
 
     @FXML
+    private TextField txtRFCcentro;
+
+    @FXML
     void btnAgregarDatosOnMouseClicked(MouseEvent event) {
-        Alert alert = new Alert(Alert.AlertType.ERROR);
-        alert.setHeaderText(null);
-        alert.setTitle("Trabajo en proceso");
-        alert.setContentText("Lo sentimos \n El boton no ha sido implementado...");
-        alert.showAndWait();
+
+        RefugioData refugioData = HelloApplication.refugioData;
+
+        String NombreRefugio=(txtNombreCentro.getText());
+        String Ubicacion =(txtUbicacionCentro.getText());
+        String rfc =(txtRFCcentro.getText());
+        String capacidad = (txtCapacidadCentro.getText());
+        int Capacidad = Integer.valueOf(capacidad);
+
+
+        byte SIZE = (byte) refugioData.refugios.size();
+        System.out.println(SIZE);
+        if(NombreRefugio!=""&&rfc!=""&&Ubicacion!=""&&capacidad!=""){
+
+            refugioData.refugios.add(new Refugio(NombreRefugio,rfc, Ubicacion, Capacidad));
+            if(refugioData.refugios.size()!=SIZE){
+                Alert alert = new Alert(Alert.AlertType.WARNING);
+                alert.setHeaderText(null);
+                alert.setTitle("Refugios - Error");
+                alert.setContentText("Registro Completado con exito");
+                alert.showAndWait();
+            }
+        }else{
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.setHeaderText(null);
+            alert.setTitle("Login - Error");
+            alert.setContentText("Error\n Dejo algun espacio en blanco");
+            alert.showAndWait();
+        }
     }
 
     @FXML

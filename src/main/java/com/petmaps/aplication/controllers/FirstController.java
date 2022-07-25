@@ -39,6 +39,6 @@ public class FirstController {
 
     @FXML
     void btnServiciosOnMouseClicked(MouseEvent event) {
-        HelloApplication.setFXML("login-view", "Inicio");
+        HelloApplication.setFXML("login-view", "Login");
     }
 }

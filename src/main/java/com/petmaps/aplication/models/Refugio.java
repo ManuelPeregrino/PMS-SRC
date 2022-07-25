@@ -49,6 +49,6 @@ public class Refugio {
     public String toString() {
         return "\nNombre del Refugio: '" + NombreRefugio + '\'' +
                 ", \nUbicacion: '" + Ubicacion + '\'' +
-                ", \nCapacidad: " + Capacidad;
+                ", \nCapacidad: " + Capacidad + "\n";
     }
 }

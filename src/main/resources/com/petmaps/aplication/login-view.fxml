@@ -11,27 +11,36 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="300.0" style="-fx-background-color: #F7E7CE;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.petmaps.aplication.controllers.LoginController">
    <children>
-      <Label layoutX="93.0" layoutY="216.0" text="Correo Electronico" textFill="#a84343">
+      <Label layoutX="94.0" layoutY="240.0" text="Correo Electronico" textFill="#a84343">
          <font>
             <Font name="Berlin Sans FB" size="16.0" />
          </font>
       </Label>
-      <TextField fx:id="txtUsername" layoutX="20.0" layoutY="250.0" prefHeight="30.0" prefWidth="260.0" style="-fx-background-radius: 20;" />
-      <Button fx:id="btnIniciar" layoutX="21.0" layoutY="373.0" mnemonicParsing="false" onMouseClicked="#btnIniciaOnMouseClicked" prefHeight="30.0" prefWidth="260.0" style="-fx-background-color: #028bc0; -fx-background-radius: 20;" text="Iniciar sesión " textFill="#f7e7ce" />
-      <Button fx:id="btnSalir" layoutX="21.0" layoutY="456.0" mnemonicParsing="false" onMouseClicked="#btnSalirOnMouseClicked" prefHeight="30.0" prefWidth="260.0" style="-fx-background-color: #028bc0; -fx-background-radius: 20;" text="Salir" textFill="#f7e7ce" />
-      <Button fx:id="btnRegistrar" layoutX="21.0" layoutY="415.0" mnemonicParsing="false" onMouseClicked="#btnRegistrarOnMouseClicked" prefHeight="30.0" prefWidth="260.0" style="-fx-background-color: #028bc0; -fx-background-radius: 20;" text="Registrar Usuario" textFill="#f7e7ce" />
-      <Label alignment="CENTER" layoutX="72.0" layoutY="142.0" prefHeight="74.0" prefWidth="162.0" text="PetMaps " textFill="#cd4242" textOverrun="LEADING_WORD_ELLIPSIS">
+      <TextField fx:id="txtUsername" layoutX="20.0" layoutY="269.0" prefHeight="30.0" prefWidth="260.0" style="-fx-background-radius: 20;" />
+      <Button fx:id="btnIniciar" layoutX="21.0" layoutY="373.0" mnemonicParsing="false" onMouseClicked="#btnIniciaOnMouseClicked" prefHeight="30.0" prefWidth="260.0" style="-fx-background-color: #028bc0; -fx-background-radius: 20;" text="Iniciar sesión " textFill="#f7e7ce">
+         <font>
+            <Font name="Berlin Sans FB" size="14.0" />
+         </font></Button>
+      <Button fx:id="btnSalir" layoutX="21.0" layoutY="456.0" mnemonicParsing="false" onMouseClicked="#btnSalirOnMouseClicked" prefHeight="30.0" prefWidth="260.0" style="-fx-background-color: #028bc0; -fx-background-radius: 20;" text="Salir" textFill="#f7e7ce">
+         <font>
+            <Font name="Berlin Sans FB" size="14.0" />
+         </font></Button>
+      <Button fx:id="btnRegistrar" layoutX="21.0" layoutY="415.0" mnemonicParsing="false" onMouseClicked="#btnRegistrarOnMouseClicked" prefHeight="30.0" prefWidth="260.0" style="-fx-background-color: #028bc0; -fx-background-radius: 20;" text="Registrar Usuario" textFill="#f7e7ce">
+         <font>
+            <Font name="Berlin Sans FB" size="14.0" />
+         </font></Button>
+      <Label alignment="CENTER" layoutX="73.0" layoutY="161.0" prefHeight="74.0" prefWidth="162.0" text="PetMaps " textFill="#cd4242" textOverrun="LEADING_WORD_ELLIPSIS">
          <font>
             <Font name="Berlin Sans FB" size="41.0" />
          </font>
       </Label>
-      <ImageView fitHeight="107.0" fitWidth="130.0" layoutX="100.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="161.0" fitWidth="169.0" layoutX="70.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@assets/img/PetLogo%20.png" />
          </image>
       </ImageView>
-      <PasswordField fx:id="txtPassword" layoutX="20.0" layoutY="321.0" prefHeight="30.0" prefWidth="260.0" style="-fx-background-radius: 30;" />
-      <Label layoutX="112.0" layoutY="292.0" text="Contraseña" textFill="#a84343">
+      <PasswordField fx:id="txtPassword" layoutX="20.0" layoutY="333.0" prefHeight="30.0" prefWidth="260.0" style="-fx-background-radius: 30;" />
+      <Label layoutX="112.0" layoutY="307.0" text="Contraseña" textFill="#a84343">
          <font>
             <Font name="Berlin Sans FB" size="16.0" />
          </font>

@@ -33,7 +33,7 @@ public class LoginController {
     void btnIniciaOnMouseClicked(MouseEvent event) {
 
         if(user.autenticarUsers(txtUsername.getText(), txtPassword.getText())){
-            HelloApplication.setFXML("First-view", "Menu Principal");
+            HelloApplication.setFXML("First-view", "Login");
             /*Alert alert = new Alert(Alert.AlertType.INFORMATION);
             alert.setHeaderText(null);
             alert.setTitle("Login- Info");
