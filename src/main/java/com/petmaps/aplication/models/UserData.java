@@ -8,7 +8,7 @@ public class UserData {
 
     public void AgregarUsuarios(){
 
-        users.add(new Usuario("Admin", "Admin", "Admin"));
+        users.add(new Usuario("Admin", "myadmin@gmail.com", "Admin"));
 
     }
 

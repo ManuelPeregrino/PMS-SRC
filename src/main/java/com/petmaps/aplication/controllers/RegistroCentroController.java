@@ -58,14 +58,14 @@ public class RegistroCentroController {
             if(refugioData.refugios.size()!=SIZE){
                 Alert alert = new Alert(Alert.AlertType.WARNING);
                 alert.setHeaderText(null);
-                alert.setTitle("Refugios - Error");
+                alert.setTitle("Refugios - Exito");
                 alert.setContentText("Registro Completado con exito");
                 alert.showAndWait();
             }
         }else{
             Alert alert = new Alert(Alert.AlertType.ERROR);
             alert.setHeaderText(null);
-            alert.setTitle("Login - Error");
+            alert.setTitle("Error");
             alert.setContentText("Error\n Dejo algun espacio en blanco");
             alert.showAndWait();
         }

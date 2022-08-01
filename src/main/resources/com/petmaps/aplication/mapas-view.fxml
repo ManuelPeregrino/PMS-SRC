@@ -13,7 +13,7 @@
    <children>
       <ImageView fitHeight="382.0" fitWidth="786.0" layoutX="83.0" layoutY="86.0">
          <image>
-            <Image url="@../../../../../../target/classes/com/petmaps/aplication/assets/img/mapa-tuxtla-gutierrez-chiapas.png" />
+            <Image url="@assets/img/mapa-tuxtla-gutierrez-chiapas.png" />
          </image>
       </ImageView>
       <Pane prefHeight="80.0" prefWidth="946.0" style="-fx-background-color: #F3DFA2;">

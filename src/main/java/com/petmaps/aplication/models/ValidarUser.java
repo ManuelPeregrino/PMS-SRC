@@ -4,7 +4,7 @@ import com.petmaps.aplication.HelloApplication;
 
 import java.util.ArrayList;
 
-public class ValidarUser {
+public class ValidarUser implements Validaciones {
 
     UserData userData = HelloApplication.userData;
     public boolean autenticarUsers(String username, String password){
@@ -17,7 +17,7 @@ public class ValidarUser {
         }
             return false;
     }
-    private Usuario findUser(String username){
+    public  Usuario findUser(String username){
         Usuario user=null;
         boolean status=false;
         int index=0;

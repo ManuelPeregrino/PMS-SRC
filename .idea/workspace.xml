@@ -4,11 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc6e7c5c-da8c-4abc-8301-f0f9d8ed516c" name="Changes" comment="Release 1.01">
+    <list default="true" id="bc6e7c5c-da8c-4abc-8301-f0f9d8ed516c" name="Changes" comment="Release 1.02">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/petmaps/aplication/models/UsuarioRefugio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/petmaps/aplication/models/Validaciones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/petmaps/aplication/assets/img/mapa-tuxtla-gutierrez-chiapas.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/petmaps/aplication/models/Tienda.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/petmaps/aplication/controllers/MapasController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/petmaps/aplication/controllers/MapasController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/petmaps/aplication/controllers/RegistroCentroController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/petmaps/aplication/controllers/RegistroCentroController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/petmaps/aplication/models/RefugioData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/petmaps/aplication/models/RefugioData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/petmaps/aplication/models/UserData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/petmaps/aplication/models/UserData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/petmaps/aplication/models/ValidarUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/petmaps/aplication/models/ValidarUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/petmaps/aplication/mapas-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/petmaps/aplication/mapas-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/petmaps/aplication/controllers/MapasController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/petmaps/aplication/controllers/MapasController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/petmaps/aplication/controllers/RegistroCentroController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/petmaps/aplication/controllers/RegistroCentroController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/petmaps/aplication/mapas-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/petmaps/aplication/mapas-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/petmaps/aplication/models/RefugioData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/petmaps/aplication/models/RefugioData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/petmaps/aplication/models/UserData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/petmaps/aplication/models/UserData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/petmaps/aplication/models/ValidarUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/petmaps/aplication/models/ValidarUser.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +32,7 @@
       <list>
         <option value="FxmlFile" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -47,12 +60,16 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Manuel Peregrino/OneDrive/Escritorio&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Manuel Peregrino/Downloads/MyGruvbox.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Manuel Peregrino\IdeaProjects\PMS\src\main\resources\com\petmaps\aplication\assets\img" />
       <recent name="C:\Users\Manuel Peregrino\IdeaProjects\PMS\src\main\resources\com\petmaps\aplication" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -129,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658783043770</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Release 1.02">
+      <created>1658818506649</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658818506649</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,6 +171,7 @@
     <MESSAGE value="Reestructura 01" />
     <MESSAGE value="Release 01" />
     <MESSAGE value="Release 1.01" />
-    <option name="LAST_COMMIT_MESSAGE" value="Release 1.01" />
+    <MESSAGE value="Release 1.02" />
+    <option name="LAST_COMMIT_MESSAGE" value="Release 1.02" />
   </component>
 </project>
